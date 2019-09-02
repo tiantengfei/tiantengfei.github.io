@@ -2,4 +2,7 @@ source "https://rubygems.org"
 
 # use local theme gem for testing
 gem "jekyll-remote-theme"
-gemspec
+gem "jekyll-seo-tag"
+gem "jekyll-sitemap"
+gem "jekyll-feed"
+gem "jekyll-paginate"
