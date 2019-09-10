@@ -4,6 +4,7 @@ categories:
   - papers
 tags:
   - machine learning
+date: 2019-09-10T12:10:50-04:00
 ---
 
 The fllowing is the papers I am reading and have read. 
