@@ -13,4 +13,5 @@ The fllowing is the papers I am reading and have read.
 ## NLP
 
 ## Reinforce Learning
-- [x] [High-dimensional continuous control using generalized advantage estimation: Schulman, John, et al.](https://arxiv.org/abs/1506.02438) 
+- [x] [Schulman, John, et al. "High-dimensional continuous control using generalized advantage estimation." arXiv preprint arXiv:1506.02438 (2015).](https://arxiv.org/abs/1506.02438) 
+- [x] [Silver, David, et al. "Mastering the game of go without human knowledge." Nature 550.7676 (2017): 354.](http://discovery.ucl.ac.uk/10045895/1/agz_unformatted_nature.pdf)
