@@ -12,6 +12,7 @@ The fllowing is the papers I am reading and have read.
 ## Computer Vision
 ## NLP
 - [x] [Vaswani, Ashish, et al. "Attention is all you need." Advances in neural information processing systems. 2017.](http://papers.nips.cc/paper/7181-attention-is-all-you-need)
+- [x] [Dai, Zihang, et al. "Transformer-xl: Attentive language models beyond a fixed-length context." arXiv preprint arXiv:1901.02860 (2019).](https://arxiv.org/abs/1901.02860)
 - [x] [Devlin, Jacob, et al. "Bert: Pre-training of deep bidirectional transformers for language understanding." arXiv preprint arXiv:1810.04805 (2018).](https://arxiv.org/abs/1810.04805)
 
 ## Reinforce Learning
