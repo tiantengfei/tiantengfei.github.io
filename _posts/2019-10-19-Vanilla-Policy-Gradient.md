@@ -9,9 +9,13 @@ tags:
  The value-function approach on reinforcement learning has worked well in many applications. It obtains the policy by selecting the action in each state with highest estimated value iteratively.
 
  But the approach faces several probelms. First, the policy obtained is a deterministic policy whereas the optimal policy is often stochastic in reality. Second, a little change to value fuction may result in a diffrent action is selected, which becomes a key obstacle of convergence assurances for algorithms following the value-function apporoach like Q-learning, Sarsa and so on.  
+
  Sutton,David, et al explore an alternative approach in which the policy is explicitly represented by its own function approximator, independent of the value function, and is updated according to the gradient of expected reward with respect to the policy parameters.  
-In reinforcement learning, the state, action, and reward are denoted \\(s_t \epsilon \mathit{S}\\),\\(a_t \epsilon \mathit{A}\\) and \\(r_t \epsilon \mathit{R}\\) respectively. The environment's dynamics are charactrized by state transition probabilities, \\( P_{ss'}^{a}=P_r\left \\{ s_{t+1}=s'|s_t=s,a_t=a\right \\} \\) and expected rewards 
-\\( R_{s}^{a}=E\left \\{r_{t+1}|s_t=s,a_t=a\right \\} \\), \\( \forall s,s' \epsilon S, a \epsilon A  \\). The agent makes decision by a policy, \\( \pi(s,a,\theta )=P_r(a_t=a|s_t=s,\theta) \\), \\( \forall s \epsilon S, a \epsilon A  \\), where \\( \theta \epsilon \Re^l \\) is a paramter vector.  
+
+In reinforcement learning, the state, action, and reward are denoted \\(s_t \epsilon \mathit{S}\\),\\(a_t \epsilon \mathit{A}\\) and 
+\\(r_t \epsilon \mathit{R}\\) respectively. The environment's dynamics are charactrized by state transition probabilities, \\( P_{ss'}^{a}=P_r\left \\{ s_{t+1}=s'|s_t=s,a_t=a\right \\} \\) and expected rewards 
+\\( R_{s}^{a}=E\left \\{r_{t+1}|s_t=s,a_t=a\right \\} \\), \\( \forall s,s' \epsilon S, a \epsilon A  \\). The agent makes decision by a policy, \\( \pi(s,a,\theta )=P_r(a_t=a|s_t=s,\theta) \\), \\( \forall s \epsilon S, a \epsilon A  \\), where \\( \theta \epsilon \Re^l \\) is a paramter vector.
+
 There are two ways to formulate the agent's objective with function approximation. The first is the average reward formulation. The long-term expected rewards per step, \\( \rho(\pi) \\) is the objective:  
 
 $$ \rho(\pi)= \lim_{n \to\infty  }\frac{1}{n}E\left\{r_1+r_2+....+r_n|\pi\right \}=\sum_{s}d^{\pi}(s)\sum_{a}\pi(s,a)R_s^a, $$
