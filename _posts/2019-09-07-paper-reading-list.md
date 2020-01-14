@@ -4,7 +4,7 @@ categories:
   - papers
 tags:
   - machine learning
-date: 2019-09-10T12:10:50-04:00
+last_modified_at: 2019-11-03T16:46:59-17:00
 ---
 
 The fllowing is the papers I am reading and have read. 
@@ -18,4 +18,4 @@ The fllowing is the papers I am reading and have read.
 ## Reinforce Learning
 - [x] [Schulman, John, et al. "High-dimensional continuous control using generalized advantage estimation." arXiv preprint arXiv:1506.02438 (2015).](https://arxiv.org/abs/1506.02438) 
 - [x] [Silver, David, et al. "Mastering the game of go without human knowledge." Nature 550.7676 (2017): 354.](http://discovery.ucl.ac.uk/10045895/1/agz_unformatted_nature.pdf)
-
+- [x] [Duan, Yan, et al. "Benchmarking deep reinforcement learning for continuous control." International Conference on Machine Learning. 2016.](http://proceedings.mlr.press/v48/duan16.pdf)
